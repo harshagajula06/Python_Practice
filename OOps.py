@@ -1,6 +1,4 @@
-'''https://www.msn.com/en-in/entertainment/news/4-life-lessons-hidden-in-the-hanuman-chalisa/ss-AA1W6sHt?ocid=winp2fptaskbar&cvid=6a1fe55bf3c44544823579ecd05705c1&uxmode=ruby&ei=30#image=3
-'''
-"""class arithmetic_operations:
+class arithmetic_operations:
     '''Add,sub,mul,div'''
     def sum(self):
         a=int(input())
@@ -25,7 +23,7 @@ obj2=arithmetic_operations()
 obj2.mul()
 obj2.div()
 help(arithmetic_operations)
-print(arithmetic_operations.__doc__)"""
+print(arithmetic_operations.__doc__)
 
 # Constructor of class
 
@@ -1950,6 +1948,7 @@ print(subsets(s))
 abc-->abc,acb,bac,bca,cab,cba--->6
 3!=6
 '''
+'''
 s = "abc"
 for i in range(len(s)):
     for j in range(len(s)):
@@ -1962,3 +1961,4 @@ s=input()
 p=permutations(s)
 for i in p:
     print("".join(i))
+'''
