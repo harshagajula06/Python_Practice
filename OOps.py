@@ -27,7 +27,7 @@ print(arithmetic_operations.__doc__)"""
 
 # Constructor of class
 
-class vmtw:
+"""class vmtw:
     def __init__(self):
         self.name="Harsha"
         self.cls = "Batch 5"
@@ -41,9 +41,9 @@ class vmtw:
 obj=vmtw()
 obj.display()
 obj.show()
-
+"""
 # Example
-'''
+
 class Mobile:
     def __init__(self,brand,storage,price):
         self.name=brand
@@ -58,7 +58,7 @@ m1.display()
 print()
 m2=Mobile("Redmi","128GB",25000)
 m2.display()
-'''
+
 
 # Example2
 '''
