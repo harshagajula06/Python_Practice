@@ -1,4 +1,4 @@
-class arithmetic_operations:
+"""class arithmetic_operations:
     '''Add,sub,mul,div'''
     def sum(self):
         a=int(input())
@@ -23,11 +23,11 @@ obj2=arithmetic_operations()
 obj2.mul()
 obj2.div()
 help(arithmetic_operations)
-print(arithmetic_operations.__doc__)
+print(arithmetic_operations.__doc__)"""
 
 # Constructor of class
 
-"""class vmtw:
+class vmtw:
     def __init__(self):
         self.name="Harsha"
         self.cls = "Batch 5"
@@ -40,7 +40,7 @@ print(arithmetic_operations.__doc__)
         print(self.a)
 obj=vmtw()
 obj.display()
-obj.show()"""
+obj.show()
 
 # Example
 '''
