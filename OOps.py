@@ -43,7 +43,7 @@ obj.display()
 obj.show()
 """
 # Example
-
+'''
 class Mobile:
     def __init__(self,brand,storage,price):
         self.name=brand
@@ -58,10 +58,10 @@ m1.display()
 print()
 m2=Mobile("Redmi","128GB",25000)
 m2.display()
-
+'''
 
 # Example2
-'''
+
 class Employee:
     def __init__(self,em_name,em_location,em_salary,em_dept):
         self.name=em_name
@@ -80,7 +80,7 @@ e2 = Employee("Hari","Hyd",30000,"CS")
 e2.display()
 print()
 e3 = Employee("Bhargav","Hyd",50000,"Robotics")
-e3.display()'''
+e3.display()
 
 #Example 3
 '''
