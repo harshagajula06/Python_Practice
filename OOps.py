@@ -83,7 +83,7 @@ e3 = Employee("Bhargav","Hyd",50000,"Robotics")
 e3.display()
 '''
 #Example 3
-
+'''
 class Laptop:
     def __init__(self,brand,OS,Version,price,storage,size):
         self.br=brand
@@ -101,9 +101,9 @@ l1=Laptop("Hp","Windows","i3",45000,"128GB","34x67")
 l1.show()
 l2=Laptop("Asus","Windows","i3",65000,"256GB","45x21")
 l2.show()
-
-#Example3
 '''
+#Example3
+
 class Student:
     def __init__(self,n,r,m):
         self.name=n
@@ -122,7 +122,7 @@ print()
 s2=Student("Bhargav",521,9.2)
 s2.display()
 print()
-'''
+
 #Instance variables
 '''class Movie:
     def __init__(self,hero,b,h,v):
