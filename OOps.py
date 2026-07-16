@@ -61,7 +61,7 @@ m2.display()
 '''
 
 # Example2
-
+'''
 class Employee:
     def __init__(self,em_name,em_location,em_salary,em_dept):
         self.name=em_name
@@ -81,9 +81,9 @@ e2.display()
 print()
 e3 = Employee("Bhargav","Hyd",50000,"Robotics")
 e3.display()
-
-#Example 3
 '''
+#Example 3
+
 class Laptop:
     def __init__(self,brand,OS,Version,price,storage,size):
         self.br=brand
@@ -101,7 +101,7 @@ l1=Laptop("Hp","Windows","i3",45000,"128GB","34x67")
 l1.show()
 l2=Laptop("Asus","Windows","i3",65000,"256GB","45x21")
 l2.show()
-'''
+
 #Example3
 '''
 class Student:
