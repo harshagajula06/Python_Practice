@@ -103,7 +103,7 @@ l2=Laptop("Asus","Windows","i3",65000,"256GB","45x21")
 l2.show()
 '''
 #Example3
-
+'''
 class Student:
     def __init__(self,n,r,m):
         self.name=n
@@ -122,9 +122,9 @@ print()
 s2=Student("Bhargav",521,9.2)
 s2.display()
 print()
-
+'''
 #Instance variables
-'''class Movie:
+class Movie:
     def __init__(self,hero,b,h,v):
         self.hero=hero
         self.b=b
@@ -146,7 +146,7 @@ m1.mainlead()
 print()
 print(m1.hero)
 print(m1.v)
-print(m1.b)'''
+print(m1.b)
 
 #Static variables
 '''
