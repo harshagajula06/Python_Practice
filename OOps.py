@@ -124,6 +124,7 @@ s2.display()
 print()
 '''
 #Instance variables
+'''
 class Movie:
     def __init__(self,hero,b,h,v):
         self.hero=hero
@@ -147,9 +148,9 @@ print()
 print(m1.hero)
 print(m1.v)
 print(m1.b)
-
-#Static variables
 '''
+#Static variables
+
 class Bike:
     brand='Pulsar'
     def display(self):
@@ -159,7 +160,7 @@ b.display()
 
 b1=Bike()
 b1.display()
-'''
+
 #Local variables
 '''
 class A:
