@@ -150,7 +150,7 @@ print(m1.v)
 print(m1.b)
 '''
 #Static variables
-
+'''
 class Bike:
     brand='Pulsar'
     def display(self):
@@ -160,9 +160,9 @@ b.display()
 
 b1=Bike()
 b1.display()
-
-#Local variables
 '''
+#Local variables
+
 class A:
     def __init__(self):
         self.name="name"
@@ -175,8 +175,8 @@ class A:
         print(a)
 ob=A()
 ob.display()#name,10
-ob.show() #error
-'''
+ob.show()
+
 
 #Types of methods in Python class
 '''
