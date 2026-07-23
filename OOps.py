@@ -179,7 +179,7 @@ ob.show()
 
 '''
 #Types of methods in Python class
-
+'''
 class cl:
     def __init__(self,n,r):
         self.name=n
@@ -192,9 +192,9 @@ class cl:
 ob=cl("Hari",524)
 ob.m1()
 ob.m2()
-
-#Instance Method (Ex:1)
 '''
+#Instance Method (Ex:1)
+
 class marks:
     def __init__(self,n,m,r,):
         self.name=n
@@ -217,7 +217,7 @@ ob1=marks("Hari",45,567)
 ob1.display()
 ob2=marks("Bhargav",97,512)
 ob2.display()
-'''
+
 
 #Ex:2
 '''
