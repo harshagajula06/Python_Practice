@@ -162,7 +162,7 @@ b1=Bike()
 b1.display()
 '''
 #Local variables
-
+'''
 class A:
     def __init__(self):
         self.name="name"
@@ -177,9 +177,9 @@ ob=A()
 ob.display()#name,10
 ob.show()
 
-
-#Types of methods in Python class
 '''
+#Types of methods in Python class
+
 class cl:
     def __init__(self,n,r):
         self.name=n
@@ -192,7 +192,7 @@ class cl:
 ob=cl("Hari",524)
 ob.m1()
 ob.m2()
-'''
+
 #Instance Method (Ex:1)
 '''
 class marks:
