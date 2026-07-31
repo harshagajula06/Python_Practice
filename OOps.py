@@ -194,7 +194,7 @@ ob.m1()
 ob.m2()
 '''
 #Instance Method (Ex:1)
-
+'''
 class marks:
     def __init__(self,n,m,r,):
         self.name=n
@@ -217,10 +217,10 @@ ob1=marks("Hari",45,567)
 ob1.display()
 ob2=marks("Bhargav",97,512)
 ob2.display()
-
+'''
 
 #Ex:2
-'''
+
 class marks:
     def __init__(self,n,m1,m2,r):
         self.name=n
@@ -245,7 +245,7 @@ ob1=marks("Hari",45,45,567)
 ob1.display()
 ob2=marks("Bhargav",90,90,512)
 ob2.display()
-'''
+
 #Static Method
 '''
 class A:
