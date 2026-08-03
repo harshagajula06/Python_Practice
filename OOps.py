@@ -220,7 +220,7 @@ ob2.display()
 '''
 
 #Ex:2
-
+'''
 class marks:
     def __init__(self,n,m1,m2,r):
         self.name=n
@@ -245,9 +245,8 @@ ob1=marks("Hari",45,45,567)
 ob1.display()
 ob2=marks("Bhargav",90,90,512)
 ob2.display()
-
-#Static Method
 '''
+#Static Method
 class A:
     def m1(self):
         print("Hi")
@@ -259,7 +258,6 @@ class A:
 ob=A()
 ob.m2()
 ob.m3()
-'''
 #Decorators
 '''
 def f1(func):
