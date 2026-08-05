@@ -247,6 +247,7 @@ ob2=marks("Bhargav",90,90,512)
 ob2.display()
 '''
 #Static Method
+'''
 class A:
     def m1(self):
         print("Hi")
@@ -258,8 +259,9 @@ class A:
 ob=A()
 ob.m2()
 ob.m3()
-#Decorators
 '''
+#Decorators
+
 def f1(func):
     def f2():
         print("Hello World")
@@ -268,10 +270,10 @@ def f1(func):
 @f1
 def f3():
     print("Sai")
-f3()'''
+f3()
 
 #
-'''
+
 class vmtw:
     def __init__(self):
         pass
@@ -283,7 +285,7 @@ class A:
 ob=vmtw()
 ob.m1()
 s1=A.m2(ob)#class parameter(ob),code reusability
-'''
+
 '''
 class vmtw:
     def __init__(self,n,b,s):
@@ -314,7 +316,8 @@ class Car:
             print("this is m2() from class Engine")
 ob=Car()
 ob.m1()
-s=Car().Engine().m2()'''
+s=Car().Engine().m2()
+'''
     
 #PILLARS OF OOPS
 
