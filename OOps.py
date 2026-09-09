@@ -261,7 +261,7 @@ ob.m2()
 ob.m3()
 '''
 #Decorators
-
+'''
 def f1(func):
     def f2():
         print("Hello World")
@@ -285,6 +285,7 @@ class A:
 ob=vmtw()
 ob.m1()
 s1=A.m2(ob)#class parameter(ob),code reusability
+
 
 '''
 class vmtw:
